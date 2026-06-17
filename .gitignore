@@ -1,0 +1,27 @@
+# Dependencias
+node_modules/
+
+# Compilados de Java/Maven
+target/
+
+# Compilados del frontend
+dist/
+
+# Configuracion local de IDE
+.vscode/
+.idea/
+*.iml
+
+# Variables de entorno / secretos
+*.env
+application-local.properties
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# GitHub modernize (autogenerado)
+.github/modernize/
