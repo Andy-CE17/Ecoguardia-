@@ -2,7 +2,7 @@ import axios from 'axios';
 
 // URL base del backend Spring Boot.
 // En local apunta a tu maquina; cambia el host si pruebas desde otro dispositivo.
-export const API_URL = 'http://localhost:8080';
+export const API_URL = 'http://localhost:8081';
 
 const api = axios.create({
   baseURL: API_URL,
